@@ -1,0 +1,20 @@
+h1 {
+        text-align: center;
+    }
+
+body {
+        color: #000000;
+}
+
+:root{
+      --bg:#0f1115;
+    }
+
+    body{
+      background:
+        radial-gradient(circle at top left, rgba(255, 136, 0, 0.3), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(255, 230, 0, 0.3), transparent 30%),
+        var(--bg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
