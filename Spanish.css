@@ -18,3 +18,12 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
 }
+
+h1 {
+    font-size: 72px;
+    background-image: linear-gradient(to right, #ffffff, #ffa200, #000000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
