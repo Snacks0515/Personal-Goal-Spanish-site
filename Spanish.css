@@ -12,8 +12,8 @@ body {
 
     body{
       background:
-        radial-gradient(circle at top left, rgba(255, 136, 0, 0.3), transparent 30%),
-    radial-gradient(circle at bottom right, rgba(255, 230, 0, 0.3), transparent 30%),
+        radial-gradient(circle at top left, rgba(0, 255, 55, 0.3), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(0, 238, 255, 0.3), transparent 30%),
         var(--bg);
         background-repeat: no-repeat;
         background-size: cover;
