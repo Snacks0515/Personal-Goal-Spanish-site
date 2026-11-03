@@ -21,7 +21,7 @@ body {
 
 h1 {
     font-size: 72px;
-    background-image: linear-gradient(to right, #ffffff, #ffa200, #000000);
+    background-image: linear-gradient(to right, #ffffff, #00d5ff, #00ff04);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
