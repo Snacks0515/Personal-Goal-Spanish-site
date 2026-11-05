@@ -10,10 +10,10 @@ body {
       --bg:#0f1115;
     }
 
-    body{
+    body.index{
       background:
         radial-gradient(circle at top left, rgba(0, 255, 55, 0.3), transparent 30%),
-    radial-gradient(circle at bottom right, rgba(0, 238, 255, 0.3), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(0, 238, 255, 0.3), transparent 30%),
         var(--bg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -27,6 +27,7 @@ h1 {
   color: transparent;
 }
 
+/*this video is for trolled.html*/
 video {
   position: relative;
   width: 100%;
@@ -43,3 +44,7 @@ video {
   left: 0;
   object-fit: cover;
 }
+
+
+
+
