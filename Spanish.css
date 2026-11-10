@@ -48,9 +48,14 @@ video {
 
 
 /*below is css for the greetings page*/
-body.greetings {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-}
+:root{
+      --bg:#0f1115;
+    }
+
+    body.greetings{
+      background:
+        radial-gradient(circle at bottom left, rgba(179, 195, 182, 0.3), transparent 30%),
+        radial-gradient(circle at right, rgba(0, 238, 255, 0.3), transparent 30%),
+        var(--bg);
+        background-repeat: no-repeat;
+        background-size: cover;
