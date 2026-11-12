@@ -48,6 +48,10 @@ video {
 
 
 /*below is css for the greetings page*/
+body.greetings {
+  color: #ffffff;
+}
+
 :root{
       --bg:#0f1115;
     }
@@ -59,3 +63,17 @@ video {
         var(--bg);
         background-repeat: no-repeat;
         background-size: cover;
+}
+
+/*need to change table colors so that it is viewable*/
+table {
+  border: solid 1px white;
+}
+
+table th {
+  border: solid 1px rgb(246, 244, 244);
+}
+
+table td {
+  border: solid 1px rgb(246, 244, 244);
+}
