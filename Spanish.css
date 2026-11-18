@@ -47,7 +47,7 @@ video {
 }
 
 
-/*below is css for the greetings and partially the goodbyes pages*/
+/*below is css for the greetings page*/
 body.greetings {
   color: #ffffff;
 }
@@ -65,7 +65,6 @@ body.greetings {
         background-size: cover;
 }
 
-/*need to change table colors so that it is viewable*/
 table {
   border: solid 1px white;
 }
@@ -76,4 +75,22 @@ table th {
 
 table td {
   border: solid 1px rgb(246, 244, 244);
+}
+
+/*below is the css for the goodbyes page*/
+body.goodbyes {
+  color: #ffffff;
+}
+
+:root{
+      --bg:#0f1115;
+    }
+
+    body.goodbyes{
+      background:
+        radial-gradient(circle at bottom left, rgba(179, 195, 182, 0.3), transparent 30%),
+        radial-gradient(circle at right, rgba(0, 238, 255, 0.3), transparent 30%),
+        var(--bg);
+        background-repeat: no-repeat;
+        background-size: cover;
 }
